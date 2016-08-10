@@ -1,0 +1,8 @@
+---
+machine:
+  ruby:
+    version: 2.1.9
+notify:
+  webhooks:
+    # A list of hook hashes, containing the url field
+    - url: https://coveralls.io/webhook?repo_token=SFdYC8cgEnwclAC8K7dzccQ5e16ZBDlPj
